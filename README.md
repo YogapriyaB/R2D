@@ -243,7 +243,7 @@ endmodule
  
 # NETLIST
  
- 
+https://github.com/YogapriyaB/R2D/blob/d4aa10dc4023b0310272deb854ac5ab442dfac89/esim_project_files/yoga.cir.out 
  
 # SCHEMATICS
  
