@@ -234,23 +234,18 @@ endmodule
  
 ![image](https://user-images.githubusercontent.com/101329190/194714976-63002d3f-1a06-4596-834e-7e5326ddf55b.png)
 
+# CREATING MODELS OF NGVERI FOR PRIORITY ENCODER
 
-# CREATING MODELS OF NGVERI FOR NAND
+![image](https://user-images.githubusercontent.com/101329190/194715005-4b4f99ab-71dd-4201-85d3-f6817cf8426c.png)
+
  
-
-
-
-
-
-
-
-
 # NETLIST
  
  https://github.com/YogapriyaB/rvmyth/blob/main/esim_project_files/mixed.cir.out
+ 
  # SCHEMATICS
  
- <img width="960" alt="schematic diagram" src="https://user-images.githubusercontent.com/101329190/157716665-9ffba1a5-446f-43f7-88fa-c3f9fc007325.png">
+ 
  
 
  # OUTPUT WAVEFORMS
