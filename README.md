@@ -252,38 +252,16 @@ endmodule
  ![image](https://user-images.githubusercontent.com/101329190/194715374-264c6903-a885-4ace-8aad-5392d51ed987.png)
  
  ![image](https://user-images.githubusercontent.com/101329190/194715407-371b1216-ff9a-46f2-8885-ca6651b06bd2.png)
+ 
+ ![image](https://user-images.githubusercontent.com/101329190/194715454-778aac3e-8af6-44b5-8cfc-8d3b7c34ad2d.png)
 
-
- 
- 
- 
-
-
- 
- 
- 
 
  # OUTPUT WAVEFORMS
  
- <img width="960" alt="output v_cout" src="https://user-images.githubusercontent.com/101329190/157720830-c8e92401-7b3d-4505-9517-fb7b23312f9b.png">
  
- 
- 
- <img width="959" alt="output vclk" src="https://user-images.githubusercontent.com/101329190/157720811-cbf2e499-1739-4852-98c1-2a9e3344dbab.png">
- 
- 
- 
- ![image](https://user-images.githubusercontent.com/101329190/157805639-4902a5e3-75c8-496c-a71d-8a38fd923ca2.png)
- 
- 
-
-  <img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
   
   
   
- # GAW WAVEFORMS
- 
- <img width="960" alt="gaw output" src="https://user-images.githubusercontent.com/101329190/157721382-f9025518-3cc7-4de0-b77d-95922807910b.png">
 
 
  # AUTHOR
