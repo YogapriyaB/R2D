@@ -8,7 +8,9 @@
 - [EDA TOOLS USED](#eda-tools-used)
 - [MAKERCHIP](#makerchip)
 - [MAKERCHIP WAVEFORM](#makerchip-waveform)
-- [CREATING MODELS OF NGVERI](#creating-models-of-ngveri)
+- [CREATING MODELS OF NGVERI FOR MULTIPLEXER](#creating-models-of-ngveri-for-multiplexer)
+- [CREATING MODELS OF NGVERI FOR NAND](#creating-models-of-ngveri-for-nand)
+- [CREATING MODELS OF NGVERI FOR PRIORITY ENCODER](#creating-models-of-ngveri-for-priority-encoder)
 - [SCHEMATICS](#schematics)
 - [OUTPUT WAVEFORMS](#output-waveforms)
 - [AUTHOR](#author)
@@ -258,17 +260,16 @@ endmodule
 
  # OUTPUT WAVEFORMS
  
+ ![image](https://user-images.githubusercontent.com/101329190/194715593-06f11899-12b3-4af6-8eb7-425e9e923a42.png)
+
+ 
  ![1](https://user-images.githubusercontent.com/101329190/194715520-4fcd8cf7-6aad-4e38-aa0a-f5512cd8d583.PNG)
 
   
-  
-  
-
-
  # AUTHOR
  
     B. Yogapriya
-    Third year, B.E, ECE
+    Final year, B.E, ECE
     Easwari Engineering College 
     Mail : yogapriyab2001@gmail.com
     
