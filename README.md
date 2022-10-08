@@ -232,6 +232,7 @@ endmodule
 
 # MAKERCHIP WAVEFORM
  
+![image](https://user-images.githubusercontent.com/101329190/194714976-63002d3f-1a06-4596-834e-7e5326ddf55b.png)
 
 
 # CREATING MODELS OF NGVERI FOR NAND
