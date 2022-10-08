@@ -245,7 +245,7 @@ endmodule
  
  https://github.com/YogapriyaB/rvmyth/blob/main/esim_project_files/mixed.cir.out
  
- # SCHEMATICS
+# SCHEMATICS
  
  ![image](https://user-images.githubusercontent.com/101329190/194715096-f0704ed7-78fc-4434-8d63-1debe5154cfc.png)
  
