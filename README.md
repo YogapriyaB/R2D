@@ -12,7 +12,7 @@
 - [CREATING MODELS OF NGVERI FOR NAND](#creating-models-of-ngveri-for-nand)
 - [CREATING MODELS OF NGVERI FOR PRIORITY ENCODER](#creating-models-of-ngveri-for-priority-encoder)
 - [SCHEMATICS](#schematics)
-- [OUTPUT WAVEFORMS](#output-waveforms)
+- [OUTPUT WAVEFORM](#output-waveform)
 - [AUTHOR](#author)
 - [ACKNOWEDGEMENTS](#acknowedgements)
 
