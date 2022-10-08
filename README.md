@@ -121,7 +121,7 @@ endmodule
  
  ![image](https://user-images.githubusercontent.com/101329190/194714595-f258307d-3380-4401-b936-6f8a15b36259.png)
 
-# NAND WITH TWO OUTPUT 
+# NAND WITH TWO INPUT 
 
 \TLV_version 1d: tl-x.org
 \SV
