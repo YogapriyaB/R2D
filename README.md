@@ -243,7 +243,7 @@ endmodule
  
 # NETLIST
  
- https://github.com/YogapriyaB/rvmyth/blob/main/esim_project_files/mixed.cir.out
+ 
  
 # SCHEMATICS
  
@@ -260,24 +260,21 @@ endmodule
 
  # OUTPUT WAVEFORMS
  
- ![image](https://user-images.githubusercontent.com/101329190/194715593-06f11899-12b3-4af6-8eb7-425e9e923a42.png)
-
- 
  ![1](https://user-images.githubusercontent.com/101329190/194715520-4fcd8cf7-6aad-4e38-aa0a-f5512cd8d583.PNG)
 
   
  # AUTHOR
  
-    B. Yogapriya
-    Final year, B.E, ECE
-    Easwari Engineering College 
-    Mail : yogapriyab2001@gmail.com
+ B. Yogapriya
+ Final year, B.E, ECE
+ Easwari Engineering College 
+ Mail : yogapriyab2001@gmail.com
     
     
     
  # ACKNOWEDGEMENTS
  
-    1. Kunal Ghosh (Co-Founder, VLSI System Design Pvt. Ltd.)
-    2. FOSSEE, IIT Bombay
-    3. Steve Hoover (Founder, Redwood EDA)
-    4. Sumanto Kar (eSim Team, FOSSEE, IIT Bombay)
+ 1. Kunal Ghosh (Co-Founder, VLSI System Design Pvt. Ltd.)
+ 2. FOSSEE, IIT Bombay
+ 3. Steve Hoover (Founder, Redwood EDA)
+ 4. Sumanto Kar (eSim Team, FOSSEE, IIT Bombay)
