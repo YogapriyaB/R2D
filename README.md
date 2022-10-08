@@ -149,8 +149,8 @@ endmodule
 
 # MAKERCHIP WAVEFORM
  
+![image](https://user-images.githubusercontent.com/101329190/194714716-ae53ea10-c566-48e8-8f25-6942f682f81c.png)
 
- 
 # CREATING MODELS OF NGVERI FOR MULTIPLEXER 
  
 
