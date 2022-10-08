@@ -266,7 +266,7 @@ https://github.com/YogapriyaB/R2D/blob/d4aa10dc4023b0310272deb854ac5ab442dfac89/
  # AUTHOR
  
     B. Yogapriya
-    Third year, B.E, ECE
+    Final year, B.E, ECE
     Easwari Engineering College 
     Mail : yogapriyab2001@gmail.com
     
