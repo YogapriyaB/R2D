@@ -258,7 +258,8 @@ endmodule
 
  # OUTPUT WAVEFORMS
  
- 
+ ![1](https://user-images.githubusercontent.com/101329190/194715520-4fcd8cf7-6aad-4e38-aa0a-f5512cd8d583.PNG)
+
   
   
   
