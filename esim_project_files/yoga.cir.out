@@ -1,0 +1,486 @@
+* c:\users\yogapriya\esim-workspace\yoga\yoga.cir
+
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+* u3  net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ net-_u27-pad1_ net-_u27-pad2_ net-_u27-pad3_ yogapriya
+xsc3 net-_sc1-pad3_ net-_sc3-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc1 net-_sc1-pad1_ net-_sc1-pad2_ net-_sc1-pad3_ gnd sky130_fd_pr__nfet_01v8 
+v2 net-_sc2-pad4_ gnd  dc 1.5
+xsc4 net-_sc2-pad3_ gnd net-_sc2-pad4_ net-_sc2-pad4_ sky130_fd_pr__pfet_01v8 
+xsc2 net-_sc1-pad1_ net-_sc1-pad2_ net-_sc2-pad3_ net-_sc2-pad4_ sky130_fd_pr__pfet_01v8 
+xsc8 net-_sc15-pad3_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc15 net-_sc10-pad1_ net-_sc10-pad2_ net-_sc15-pad3_ net-_sc15-pad3_ sky130_fd_pr__nfet_01v8 
+xsc10 net-_sc10-pad1_ net-_sc10-pad2_ net-_sc10-pad3_ net-_sc10-pad3_ sky130_fd_pr__pfet_01v8 
+xsc12 net-_sc10-pad3_ net-_sc11-pad2_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8 
+xsc11 net-_sc11-pad1_ net-_sc11-pad2_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8 
+xsc13 net-_sc10-pad2_ net-_sc13-pad2_ net-_sc11-pad1_ net-_sc11-pad1_ sky130_fd_pr__pfet_01v8 
+v7 net-_sc11-pad3_ gnd  dc 1.4
+* u5  net-_u2-pad2_ net-_u10-pad2_ net-_u2-pad1_ net-_u5-pad4_ sam_nand
+* u2  net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ yo_nand
+* u4  net-_u2-pad3_ net-_u10-pad2_ net-_u2-pad2_ yo_nand
+* u6  net-_u5-pad4_ net-_u20-pad2_ net-_u2-pad1_ yo_nand
+* u9  net-_u16-pad1_ net-_u5-pad4_ net-_u8-pad2_ yo_nand
+xsc35 net-_sc11-pad3_ net-_sc11-pad2_ net-_sc11-pad2_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8 
+* u8  net-_u2-pad2_ net-_u8-pad2_ net-_u16-pad1_ yo_nand
+xsc50 net-_sc50-pad1_ net-_sc50-pad2_ net-_sc50-pad3_ net-_sc50-pad3_ sky130_fd_pr__nfet_01v8 
+xsc58 net-_sc56-pad1_ net-_sc50-pad1_ net-_sc58-pad3_ net-_sc58-pad3_ sky130_fd_pr__nfet_01v8 
+xsc52 net-_sc52-pad1_ net-_sc46-pad1_ net-_sc47-pad1_ net-_sc47-pad1_ sky130_fd_pr__pfet_01v8 
+xsc55 net-_sc55-pad1_ net-_sc46-pad1_ net-_sc47-pad1_ net-_sc47-pad1_ sky130_fd_pr__pfet_01v8 
+xsc53 net-_sc50-pad1_ net-_sc50-pad2_ net-_sc52-pad1_ net-_sc52-pad1_ sky130_fd_pr__pfet_01v8 
+xsc56 net-_sc56-pad1_ net-_sc50-pad1_ net-_sc55-pad1_ net-_sc55-pad1_ sky130_fd_pr__pfet_01v8 
+v9 net-_sc47-pad1_ gnd  dc 1.3
+xsc47 net-_sc47-pad1_ net-_sc46-pad1_ net-_sc46-pad1_ net-_sc47-pad1_ sky130_fd_pr__pfet_01v8 
+xsc71 net-_sc50-pad3_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc70 net-_sc48-pad2_ net-_sc56-pad1_ net-_sc70-pad3_ net-_sc70-pad3_ sky130_fd_pr__nfet_01v8 
+xsc80 net-_sc58-pad3_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc81 net-_sc48-pad1_ net-_sc48-pad2_ net-_sc81-pad3_ net-_sc81-pad3_ sky130_fd_pr__nfet_01v8 
+xsc72 net-_sc72-pad1_ net-_sc66-pad1_ net-_sc67-pad1_ net-_sc67-pad1_ sky130_fd_pr__pfet_01v8 
+xsc73 net-_sc48-pad2_ net-_sc56-pad1_ net-_sc72-pad1_ net-_sc72-pad1_ sky130_fd_pr__pfet_01v8 
+v11 net-_sc67-pad1_ gnd  dc 1.2
+xsc67 net-_sc67-pad1_ net-_sc66-pad1_ net-_sc66-pad1_ net-_sc67-pad1_ sky130_fd_pr__pfet_01v8 
+xsc18 net-_sc18-pad1_ net-_sc18-pad2_ net-_sc17-pad1_ net-_sc17-pad1_ sky130_fd_pr__nfet_01v8 
+xsc17 net-_sc17-pad1_ net-_sc17-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc23 net-_sc22-pad1_ net-_sc18-pad1_ net-_sc23-pad3_ net-_sc23-pad3_ sky130_fd_pr__nfet_01v8 
+xsc24 net-_sc23-pad3_ net-_sc17-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc19 net-_sc19-pad1_ net-_sc16-pad2_ net-_sc16-pad1_ net-_sc16-pad1_ sky130_fd_pr__pfet_01v8 
+xsc21 net-_sc21-pad1_ net-_sc16-pad2_ net-_sc16-pad1_ net-_sc16-pad1_ sky130_fd_pr__pfet_01v8 
+xsc20 net-_sc18-pad1_ net-_sc18-pad2_ net-_sc19-pad1_ net-_sc19-pad1_ sky130_fd_pr__pfet_01v8 
+xsc22 net-_sc22-pad1_ net-_sc18-pad1_ net-_sc21-pad1_ net-_sc21-pad1_ sky130_fd_pr__pfet_01v8 
+v4 net-_sc16-pad1_ gnd  dc 2
+xsc16 net-_sc16-pad1_ net-_sc16-pad2_ net-_sc16-pad2_ net-_sc16-pad1_ sky130_fd_pr__pfet_01v8 
+xsc28 net-_sc28-pad1_ net-_sc22-pad1_ net-_sc27-pad1_ net-_sc27-pad1_ sky130_fd_pr__nfet_01v8 
+xsc27 net-_sc27-pad1_ net-_sc27-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc33 net-_sc32-pad1_ net-_sc28-pad1_ net-_sc33-pad3_ net-_sc33-pad3_ sky130_fd_pr__nfet_01v8 
+xsc34 net-_sc33-pad3_ net-_sc27-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc29 net-_sc29-pad1_ net-_sc26-pad2_ net-_sc26-pad1_ net-_sc26-pad1_ sky130_fd_pr__pfet_01v8 
+xsc31 net-_sc31-pad1_ net-_sc26-pad2_ net-_sc26-pad1_ net-_sc26-pad1_ sky130_fd_pr__pfet_01v8 
+xsc30 net-_sc28-pad1_ net-_sc22-pad1_ net-_sc29-pad1_ net-_sc29-pad1_ sky130_fd_pr__pfet_01v8 
+xsc32 net-_sc32-pad1_ net-_sc28-pad1_ net-_sc31-pad1_ net-_sc31-pad1_ sky130_fd_pr__pfet_01v8 
+v6 net-_sc26-pad1_ gnd  dc 1
+xsc26 net-_sc26-pad1_ net-_sc26-pad2_ net-_sc26-pad2_ net-_sc26-pad1_ sky130_fd_pr__pfet_01v8 
+xsc39 net-_sc39-pad1_ net-_sc39-pad2_ net-_sc39-pad3_ net-_sc39-pad3_ sky130_fd_pr__nfet_01v8 
+xsc38 net-_sc38-pad1_ net-_sc36-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc44 net-_sc39-pad3_ net-_sc36-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc45 net-_sc39-pad2_ net-_sc32-pad1_ net-_sc38-pad1_ net-_sc38-pad1_ sky130_fd_pr__nfet_01v8 
+xsc40 net-_sc40-pad1_ net-_sc36-pad1_ net-_sc37-pad1_ net-_sc37-pad1_ sky130_fd_pr__pfet_01v8 
+xsc42 net-_sc42-pad1_ net-_sc36-pad1_ net-_sc37-pad1_ net-_sc37-pad1_ sky130_fd_pr__pfet_01v8 
+xsc41 net-_sc39-pad2_ net-_sc32-pad1_ net-_sc40-pad1_ net-_sc40-pad1_ sky130_fd_pr__pfet_01v8 
+xsc43 net-_sc39-pad1_ net-_sc39-pad2_ net-_sc42-pad1_ net-_sc42-pad1_ sky130_fd_pr__pfet_01v8 
+v8 net-_sc37-pad1_ gnd  dc 1.5
+xsc37 net-_sc37-pad1_ net-_sc36-pad1_ net-_sc36-pad1_ net-_sc37-pad1_ sky130_fd_pr__pfet_01v8 
+xsc57 net-_sc54-pad2_ net-_sc39-pad1_ net-_sc57-pad3_ net-_sc57-pad3_ sky130_fd_pr__nfet_01v8 
+xsc54 net-_sc54-pad1_ net-_sc54-pad2_ net-_sc54-pad3_ net-_sc54-pad3_ sky130_fd_pr__nfet_01v8 
+xsc64 net-_sc54-pad3_ net-_sc49-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc65 net-_sc57-pad3_ net-_sc49-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc60 net-_sc60-pad1_ net-_sc49-pad1_ net-_sc51-pad1_ net-_sc51-pad1_ sky130_fd_pr__pfet_01v8 
+xsc62 net-_sc62-pad1_ net-_sc49-pad1_ net-_sc51-pad1_ net-_sc51-pad1_ sky130_fd_pr__pfet_01v8 
+xsc61 net-_sc54-pad2_ net-_sc39-pad1_ net-_sc60-pad1_ net-_sc60-pad1_ sky130_fd_pr__pfet_01v8 
+xsc63 net-_sc54-pad1_ net-_sc54-pad2_ net-_sc62-pad1_ net-_sc62-pad1_ sky130_fd_pr__pfet_01v8 
+v10 net-_sc51-pad1_ gnd  dc 1.4
+xsc51 net-_sc51-pad1_ net-_sc49-pad1_ net-_sc49-pad1_ net-_sc51-pad1_ sky130_fd_pr__pfet_01v8 
+xsc68 net-_sc68-pad1_ net-_sc54-pad1_ net-_sc68-pad3_ net-_sc68-pad3_ sky130_fd_pr__pfet_01v8 
+xsc75 net-_sc69-pad2_ net-_sc75-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc74 net-_sc68-pad1_ net-_sc54-pad1_ net-_sc74-pad3_ net-_sc74-pad3_ sky130_fd_pr__nfet_01v8 
+xsc84 net-_sc74-pad3_ net-_sc75-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc85 net-_sc83-pad1_ net-_sc68-pad1_ net-_sc85-pad3_ net-_sc85-pad3_ sky130_fd_pr__nfet_01v8 
+xsc76 net-_sc68-pad3_ net-_sc69-pad2_ net-_sc69-pad1_ net-_sc69-pad1_ sky130_fd_pr__pfet_01v8 
+xsc82 net-_sc82-pad1_ net-_sc69-pad2_ net-_sc69-pad1_ net-_sc69-pad1_ sky130_fd_pr__pfet_01v8 
+xsc83 net-_sc83-pad1_ net-_sc68-pad1_ net-_sc82-pad1_ net-_sc82-pad1_ sky130_fd_pr__pfet_01v8 
+v12 net-_sc69-pad1_ gnd  dc 1.5
+xsc69 net-_sc69-pad1_ net-_sc69-pad2_ net-_sc69-pad2_ net-_sc69-pad1_ sky130_fd_pr__pfet_01v8 
+xsc89 net-_sc87-pad2_ net-_sc106-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc88 net-_sc88-pad1_ net-_sc83-pad1_ net-_sc88-pad3_ net-_sc88-pad3_ sky130_fd_pr__nfet_01v8 
+xsc94 net-_sc101-pad2_ net-_sc88-pad1_ net-_sc106-pad1_ net-_sc106-pad1_ sky130_fd_pr__nfet_01v8 
+xsc95 net-_sc88-pad3_ net-_sc106-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc90 net-_sc90-pad1_ net-_sc87-pad2_ net-_sc87-pad1_ net-_sc87-pad1_ sky130_fd_pr__pfet_01v8 
+xsc92 net-_sc92-pad1_ net-_sc87-pad2_ net-_sc87-pad1_ net-_sc87-pad1_ sky130_fd_pr__pfet_01v8 
+xsc91 net-_sc88-pad1_ net-_sc83-pad1_ net-_sc90-pad1_ net-_sc90-pad1_ sky130_fd_pr__pfet_01v8 
+xsc93 net-_sc101-pad2_ net-_sc88-pad1_ net-_sc92-pad1_ net-_sc92-pad1_ sky130_fd_pr__pfet_01v8 
+v13 net-_sc87-pad1_ gnd  dc 1.3
+xsc87 net-_sc87-pad1_ net-_sc87-pad2_ net-_sc87-pad2_ net-_sc87-pad1_ sky130_fd_pr__pfet_01v8 
+xsc99 net-_sc100-pad2_ net-_sc104-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc98 net-_sc101-pad1_ net-_sc101-pad2_ net-_sc104-pad1_ net-_sc104-pad1_ sky130_fd_pr__nfet_01v8 
+xsc104 net-_sc104-pad1_ net-_sc104-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc105 net-_sc103-pad1_ net-_sc101-pad1_ net-_sc105-pad3_ net-_sc105-pad3_ sky130_fd_pr__nfet_01v8 
+xsc100 net-_sc100-pad1_ net-_sc100-pad2_ net-_sc100-pad3_ net-_sc100-pad3_ sky130_fd_pr__pfet_01v8 
+xsc102 net-_sc102-pad1_ net-_sc100-pad2_ net-_sc100-pad3_ net-_sc100-pad3_ sky130_fd_pr__pfet_01v8 
+xsc101 net-_sc101-pad1_ net-_sc101-pad2_ net-_sc100-pad1_ net-_sc100-pad1_ sky130_fd_pr__pfet_01v8 
+xsc103 net-_sc103-pad1_ net-_sc101-pad1_ net-_sc102-pad1_ net-_sc102-pad1_ sky130_fd_pr__pfet_01v8 
+v14 net-_sc100-pad3_ gnd  dc 1.4
+xsc97 net-_sc100-pad3_ net-_sc100-pad2_ net-_sc100-pad2_ net-_sc100-pad3_ sky130_fd_pr__pfet_01v8 
+xsc115 net-_sc109-pad2_ net-_sc114-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc114 net-_sc114-pad1_ net-_sc114-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc124 net-_sc117-pad1_ net-_sc103-pad1_ net-_sc114-pad1_ net-_sc114-pad1_ sky130_fd_pr__nfet_01v8 
+xsc125 net-_sc113-pad2_ net-_sc117-pad1_ net-_sc125-pad3_ net-_sc125-pad3_ sky130_fd_pr__nfet_01v8 
+xsc116 net-_sc116-pad1_ net-_sc109-pad2_ net-_sc109-pad1_ net-_sc109-pad1_ sky130_fd_pr__pfet_01v8 
+xsc122 net-_sc122-pad1_ net-_sc109-pad2_ net-_sc109-pad1_ net-_sc109-pad1_ sky130_fd_pr__pfet_01v8 
+xsc117 net-_sc117-pad1_ net-_sc103-pad1_ net-_sc116-pad1_ net-_sc116-pad1_ sky130_fd_pr__pfet_01v8 
+xsc123 net-_sc113-pad2_ net-_sc117-pad1_ net-_sc122-pad1_ net-_sc122-pad1_ sky130_fd_pr__pfet_01v8 
+v16 net-_sc109-pad1_ gnd  dc 1.4
+xsc109 net-_sc109-pad1_ net-_sc109-pad2_ net-_sc109-pad2_ net-_sc109-pad1_ sky130_fd_pr__pfet_01v8 
+* u37  net-_u35-pad2_ net-_u36-pad2_ net-_u35-pad1_ net-_u37-pad4_ sam_nand
+* u35  net-_u35-pad1_ net-_u35-pad2_ net-_u35-pad3_ yo_nand
+* u36  net-_u35-pad3_ net-_u36-pad2_ net-_u35-pad2_ yo_nand
+* u38  net-_u37-pad4_ net-_u38-pad2_ net-_u35-pad1_ yo_nand
+* u41  net-_u40-pad3_ net-_u37-pad4_ net-_u40-pad2_ yo_nand
+* u40  net-_u35-pad2_ net-_u40-pad2_ net-_u40-pad3_ yo_nand
+* u14  net-_u12-pad2_ net-_u13-pad2_ net-_u12-pad1_ net-_u14-pad4_ sam_nand
+* u12  net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ yo_nand
+* u13  net-_u12-pad3_ net-_u13-pad2_ net-_u12-pad2_ yo_nand
+* u15  net-_u14-pad4_ net-_u15-pad2_ net-_u12-pad1_ yo_nand
+* u19  net-_u18-pad3_ net-_u14-pad4_ net-_u18-pad2_ yo_nand
+* u18  net-_u12-pad2_ net-_u18-pad2_ net-_u18-pad3_ yo_nand
+* u24  net-_u22-pad2_ net-_u23-pad2_ net-_u22-pad1_ net-_u24-pad4_ sam_nand
+* u22  net-_u22-pad1_ net-_u22-pad2_ net-_u22-pad3_ yo_nand
+* u23  net-_u22-pad3_ net-_u23-pad2_ net-_u22-pad2_ yo_nand
+* u25  net-_u24-pad4_ net-_u25-pad2_ net-_u22-pad1_ yo_nand
+* u31  net-_u30-pad3_ net-_u24-pad4_ net-_u30-pad2_ yo_nand
+* u30  net-_u22-pad2_ net-_u30-pad2_ net-_u30-pad3_ yo_nand
+* u66  net-_u64-pad2_ net-_u65-pad2_ net-_u64-pad1_ net-_u66-pad4_ sam_nand
+* u64  net-_u64-pad1_ net-_u64-pad2_ net-_u64-pad3_ yo_nand
+* u65  net-_u64-pad3_ net-_u65-pad2_ net-_u64-pad2_ yo_nand
+* u67  net-_u66-pad4_ net-_u67-pad2_ net-_u64-pad1_ yo_nand
+* u72  net-_u71-pad3_ net-_u66-pad4_ net-_u71-pad2_ yo_nand
+* u71  net-_u64-pad2_ net-_u71-pad2_ net-_u71-pad3_ yo_nand
+* u49  net-_u47-pad2_ net-_u48-pad2_ net-_u47-pad1_ net-_u49-pad4_ sam_nand
+* u47  net-_u47-pad1_ net-_u47-pad2_ net-_u47-pad3_ yo_nand
+* u48  net-_u47-pad3_ net-_u48-pad2_ net-_u47-pad2_ yo_nand
+* u50  net-_u49-pad4_ net-_u50-pad2_ net-_u47-pad1_ yo_nand
+* u55  net-_u54-pad3_ net-_u49-pad4_ net-_u54-pad2_ yo_nand
+* u54  net-_u47-pad2_ net-_u54-pad2_ net-_u54-pad3_ yo_nand
+* u61  net-_u59-pad2_ net-_u60-pad2_ net-_u59-pad1_ net-_u61-pad4_ sam_nand
+* u59  net-_u59-pad1_ net-_u59-pad2_ net-_u59-pad3_ yo_nand
+* u60  net-_u59-pad3_ net-_u60-pad2_ net-_u59-pad2_ yo_nand
+* u62  net-_u61-pad4_ net-_u62-pad2_ net-_u59-pad1_ yo_nand
+* u70  net-_u58-pad1_ net-_u61-pad4_ net-_u69-pad2_ yo_nand
+* u69  net-_u59-pad2_ net-_u69-pad2_ net-_u58-pad1_ yo_nand
+* u44  net-_u42-pad2_ net-_u43-pad2_ net-_u42-pad1_ net-_u44-pad4_ sam_nand
+* u42  net-_u42-pad1_ net-_u42-pad2_ net-_u42-pad3_ yo_nand
+* u45  net-_u44-pad4_ net-_u45-pad2_ net-_u42-pad1_ yo_nand
+* u53  net-_u52-pad3_ net-_u44-pad4_ net-_u52-pad2_ yo_nand
+* u52  net-_u42-pad2_ net-_u52-pad2_ net-_u52-pad3_ yo_nand
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ yo_mux
+* u11  net-_u1-pad4_ net-_sc1-pad2_ dac_bridge_1
+* u7  net-_u7-pad1_ net-_sc2-pad4_ net-_sc48-pad1_ net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ adc_bridge_3
+v3 net-_sc3-pad2_ gnd  dc 1.5
+v1 net-_u7-pad1_ gnd  dc 1.3
+* u10  net-_sc22-pad1_ net-_u10-pad2_ adc_bridge_1
+* u16  net-_u16-pad1_ net-_u16-pad2_ dac_bridge_1
+* u17  net-_sc32-pad1_ net-_u13-pad2_ adc_bridge_1
+* u28  net-_sc39-pad1_ net-_u23-pad2_ adc_bridge_1
+* u39  net-_sc54-pad1_ net-_u36-pad2_ adc_bridge_1
+* u63  net-_sc101-pad2_ net-_u60-pad2_ adc_bridge_1
+* u51  net-_sc83-pad1_ net-_u48-pad2_ adc_bridge_1
+xsc111 net-_sc107-pad2_ net-_sc111-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc110 net-_sc110-pad1_ net-_sc110-pad2_ net-_sc110-pad3_ net-_sc110-pad3_ sky130_fd_pr__nfet_01v8 
+xsc120 net-_sc110-pad2_ net-_sc113-pad2_ net-_sc120-pad3_ net-_sc120-pad3_ sky130_fd_pr__nfet_01v8 
+xsc121 net-_sc110-pad3_ net-_sc111-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc112 net-_sc112-pad1_ net-_sc107-pad2_ net-_sc107-pad1_ net-_sc107-pad1_ sky130_fd_pr__pfet_01v8 
+xsc118 net-_sc118-pad1_ net-_sc107-pad2_ net-_sc107-pad1_ net-_sc107-pad1_ sky130_fd_pr__pfet_01v8 
+xsc113 net-_sc110-pad2_ net-_sc113-pad2_ net-_sc112-pad1_ net-_sc112-pad1_ sky130_fd_pr__pfet_01v8 
+xsc119 net-_sc110-pad1_ net-_sc110-pad2_ net-_sc118-pad1_ net-_sc118-pad1_ sky130_fd_pr__pfet_01v8 
+v15 net-_sc107-pad1_ gnd  dc 1.2
+xsc107 net-_sc107-pad1_ net-_sc107-pad2_ net-_sc107-pad2_ net-_sc107-pad1_ sky130_fd_pr__pfet_01v8 
+* u73  net-_sc103-pad1_ net-_u65-pad2_ adc_bridge_1
+* u57  net-_u43-pad2_ net-_sc113-pad2_ adc_bridge_1
+* u26  net-_u18-pad3_ net-_u21-pad2_ dac_bridge_1
+* u34  net-_u30-pad3_ net-_u21-pad3_ dac_bridge_1
+* u21  net-_u16-pad2_ net-_u21-pad2_ net-_u21-pad3_ net-_u21-pad4_ net-_u21-pad5_ net-_u21-pad6_ net-_u21-pad7_ net-_u21-pad8_ net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ adc_bridge_8
+* u27  net-_u27-pad1_ net-_u27-pad2_ net-_u27-pad3_ o1 o2 o3 dac_bridge_3
+* u46  net-_u40-pad3_ net-_u21-pad4_ dac_bridge_1
+* u58  net-_u58-pad1_ net-_u21-pad6_ dac_bridge_1
+* u74  net-_u71-pad3_ net-_u21-pad7_ dac_bridge_1
+* u68  net-_u52-pad3_ net-_u21-pad8_ dac_bridge_1
+* u56  net-_u54-pad3_ net-_u21-pad5_ dac_bridge_1
+* u29  o1 plot_v1
+* u32  o2 plot_v1
+* u33  o3 plot_v1
+* s c m o d e
+v5  net-_sc13-pad2_ gnd pulse(1.5 1.4 1.3 1.2 2 1 1.5)
+xsc5 gnd net-_sc1-pad1_ gnd sky130_fd_pr__res_generic_pd 
+xsc78 net-_sc48-pad3_ net-_sc66-pad1_ net-_sc67-pad1_ net-_sc67-pad1_ sky130_fd_pr__pfet_01v8 
+xsc14 net-_sc14-pad1_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc9 net-_sc10-pad2_ net-_sc13-pad2_ net-_sc14-pad1_ net-_sc14-pad1_ sky130_fd_pr__nfet_01v8 
+xsc46 net-_sc46-pad1_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc25 net-_sc11-pad2_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc66 net-_sc66-pad1_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc77 net-_sc70-pad3_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc86 net-_sc81-pad3_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc6 net-_sc16-pad2_ net-_sc17-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc7 net-_sc26-pad2_ net-_sc27-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc36 net-_sc36-pad1_ net-_sc36-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc49 net-_sc49-pad1_ net-_sc49-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc96 net-_sc85-pad3_ net-_sc75-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc106 net-_sc106-pad1_ net-_sc106-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc108 net-_sc105-pad3_ net-_sc104-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc127 net-_sc125-pad3_ net-_sc114-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc126 net-_sc120-pad3_ net-_sc111-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 
+xsc48 net-_sc48-pad1_ net-_sc48-pad2_ net-_sc48-pad3_ net-_sc48-pad3_ sky130_fd_pr__pfet_01v8 
+* u78  net-_sc48-pad1_ net-_u45-pad2_ adc_bridge_1
+* u20  net-_u20-pad1_ net-_u20-pad2_ adc_bridge_1
+* u75  net-_u20-pad1_ net-_u15-pad2_ adc_bridge_1
+* u76  net-_u20-pad1_ net-_u25-pad2_ adc_bridge_1
+* u77  net-_u20-pad1_ net-_u38-pad2_ adc_bridge_1
+* u79  net-_u20-pad1_ net-_u50-pad2_ adc_bridge_1
+* u81  net-_u20-pad1_ net-_u67-pad2_ adc_bridge_1
+* u80  ? net-_u62-pad2_ adc_bridge_1
+* u82  net-_sc13-pad2_ net-_sc18-pad2_ adc_bridge_1
+* u43  net-_u42-pad3_ net-_u43-pad2_ net-_u42-pad2_ yo_nand
+* u83  net-_sc48-pad1_ net-_u20-pad1_ adc_bridge_1
+a1 [net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ ] [net-_u27-pad1_ net-_u27-pad2_ net-_u27-pad3_ ] u3
+a2 [net-_u2-pad2_ ] [net-_u10-pad2_ ] [net-_u2-pad1_ ] [net-_u5-pad4_ ] u5
+a3 [net-_u2-pad1_ ] [net-_u2-pad2_ ] [net-_u2-pad3_ ] u2
+a4 [net-_u2-pad3_ ] [net-_u10-pad2_ ] [net-_u2-pad2_ ] u4
+a5 [net-_u5-pad4_ ] [net-_u20-pad2_ ] [net-_u2-pad1_ ] u6
+a6 [net-_u16-pad1_ ] [net-_u5-pad4_ ] [net-_u8-pad2_ ] u9
+a7 [net-_u2-pad2_ ] [net-_u8-pad2_ ] [net-_u16-pad1_ ] u8
+a8 [net-_u35-pad2_ ] [net-_u36-pad2_ ] [net-_u35-pad1_ ] [net-_u37-pad4_ ] u37
+a9 [net-_u35-pad1_ ] [net-_u35-pad2_ ] [net-_u35-pad3_ ] u35
+a10 [net-_u35-pad3_ ] [net-_u36-pad2_ ] [net-_u35-pad2_ ] u36
+a11 [net-_u37-pad4_ ] [net-_u38-pad2_ ] [net-_u35-pad1_ ] u38
+a12 [net-_u40-pad3_ ] [net-_u37-pad4_ ] [net-_u40-pad2_ ] u41
+a13 [net-_u35-pad2_ ] [net-_u40-pad2_ ] [net-_u40-pad3_ ] u40
+a14 [net-_u12-pad2_ ] [net-_u13-pad2_ ] [net-_u12-pad1_ ] [net-_u14-pad4_ ] u14
+a15 [net-_u12-pad1_ ] [net-_u12-pad2_ ] [net-_u12-pad3_ ] u12
+a16 [net-_u12-pad3_ ] [net-_u13-pad2_ ] [net-_u12-pad2_ ] u13
+a17 [net-_u14-pad4_ ] [net-_u15-pad2_ ] [net-_u12-pad1_ ] u15
+a18 [net-_u18-pad3_ ] [net-_u14-pad4_ ] [net-_u18-pad2_ ] u19
+a19 [net-_u12-pad2_ ] [net-_u18-pad2_ ] [net-_u18-pad3_ ] u18
+a20 [net-_u22-pad2_ ] [net-_u23-pad2_ ] [net-_u22-pad1_ ] [net-_u24-pad4_ ] u24
+a21 [net-_u22-pad1_ ] [net-_u22-pad2_ ] [net-_u22-pad3_ ] u22
+a22 [net-_u22-pad3_ ] [net-_u23-pad2_ ] [net-_u22-pad2_ ] u23
+a23 [net-_u24-pad4_ ] [net-_u25-pad2_ ] [net-_u22-pad1_ ] u25
+a24 [net-_u30-pad3_ ] [net-_u24-pad4_ ] [net-_u30-pad2_ ] u31
+a25 [net-_u22-pad2_ ] [net-_u30-pad2_ ] [net-_u30-pad3_ ] u30
+a26 [net-_u64-pad2_ ] [net-_u65-pad2_ ] [net-_u64-pad1_ ] [net-_u66-pad4_ ] u66
+a27 [net-_u64-pad1_ ] [net-_u64-pad2_ ] [net-_u64-pad3_ ] u64
+a28 [net-_u64-pad3_ ] [net-_u65-pad2_ ] [net-_u64-pad2_ ] u65
+a29 [net-_u66-pad4_ ] [net-_u67-pad2_ ] [net-_u64-pad1_ ] u67
+a30 [net-_u71-pad3_ ] [net-_u66-pad4_ ] [net-_u71-pad2_ ] u72
+a31 [net-_u64-pad2_ ] [net-_u71-pad2_ ] [net-_u71-pad3_ ] u71
+a32 [net-_u47-pad2_ ] [net-_u48-pad2_ ] [net-_u47-pad1_ ] [net-_u49-pad4_ ] u49
+a33 [net-_u47-pad1_ ] [net-_u47-pad2_ ] [net-_u47-pad3_ ] u47
+a34 [net-_u47-pad3_ ] [net-_u48-pad2_ ] [net-_u47-pad2_ ] u48
+a35 [net-_u49-pad4_ ] [net-_u50-pad2_ ] [net-_u47-pad1_ ] u50
+a36 [net-_u54-pad3_ ] [net-_u49-pad4_ ] [net-_u54-pad2_ ] u55
+a37 [net-_u47-pad2_ ] [net-_u54-pad2_ ] [net-_u54-pad3_ ] u54
+a38 [net-_u59-pad2_ ] [net-_u60-pad2_ ] [net-_u59-pad1_ ] [net-_u61-pad4_ ] u61
+a39 [net-_u59-pad1_ ] [net-_u59-pad2_ ] [net-_u59-pad3_ ] u59
+a40 [net-_u59-pad3_ ] [net-_u60-pad2_ ] [net-_u59-pad2_ ] u60
+a41 [net-_u61-pad4_ ] [net-_u62-pad2_ ] [net-_u59-pad1_ ] u62
+a42 [net-_u58-pad1_ ] [net-_u61-pad4_ ] [net-_u69-pad2_ ] u70
+a43 [net-_u59-pad2_ ] [net-_u69-pad2_ ] [net-_u58-pad1_ ] u69
+a44 [net-_u42-pad2_ ] [net-_u43-pad2_ ] [net-_u42-pad1_ ] [net-_u44-pad4_ ] u44
+a45 [net-_u42-pad1_ ] [net-_u42-pad2_ ] [net-_u42-pad3_ ] u42
+a46 [net-_u44-pad4_ ] [net-_u45-pad2_ ] [net-_u42-pad1_ ] u45
+a47 [net-_u52-pad3_ ] [net-_u44-pad4_ ] [net-_u52-pad2_ ] u53
+a48 [net-_u42-pad2_ ] [net-_u52-pad2_ ] [net-_u52-pad3_ ] u52
+a49 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ ] [net-_u1-pad4_ ] u1
+a50 [net-_u1-pad4_ ] [net-_sc1-pad2_ ] u11
+a51 [net-_u7-pad1_ net-_sc2-pad4_ net-_sc48-pad1_ ] [net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ ] u7
+a52 [net-_sc22-pad1_ ] [net-_u10-pad2_ ] u10
+a53 [net-_u16-pad1_ ] [net-_u16-pad2_ ] u16
+a54 [net-_sc32-pad1_ ] [net-_u13-pad2_ ] u17
+a55 [net-_sc39-pad1_ ] [net-_u23-pad2_ ] u28
+a56 [net-_sc54-pad1_ ] [net-_u36-pad2_ ] u39
+a57 [net-_sc101-pad2_ ] [net-_u60-pad2_ ] u63
+a58 [net-_sc83-pad1_ ] [net-_u48-pad2_ ] u51
+a59 [net-_sc103-pad1_ ] [net-_u65-pad2_ ] u73
+a60 [net-_u43-pad2_ ] [net-_sc113-pad2_ ] u57
+a61 [net-_u18-pad3_ ] [net-_u21-pad2_ ] u26
+a62 [net-_u30-pad3_ ] [net-_u21-pad3_ ] u34
+a63 [net-_u16-pad2_ net-_u21-pad2_ net-_u21-pad3_ net-_u21-pad4_ net-_u21-pad5_ net-_u21-pad6_ net-_u21-pad7_ net-_u21-pad8_ ] [net-_u21-pad9_ net-_u21-pad10_ net-_u21-pad11_ net-_u21-pad12_ net-_u21-pad13_ net-_u21-pad14_ net-_u21-pad15_ net-_u21-pad16_ ] u21
+a64 [net-_u27-pad1_ net-_u27-pad2_ net-_u27-pad3_ ] [o1 o2 o3 ] u27
+a65 [net-_u40-pad3_ ] [net-_u21-pad4_ ] u46
+a66 [net-_u58-pad1_ ] [net-_u21-pad6_ ] u58
+a67 [net-_u71-pad3_ ] [net-_u21-pad7_ ] u74
+a68 [net-_u52-pad3_ ] [net-_u21-pad8_ ] u68
+a69 [net-_u54-pad3_ ] [net-_u21-pad5_ ] u56
+a70 [net-_sc48-pad1_ ] [net-_u45-pad2_ ] u78
+a71 [net-_u20-pad1_ ] [net-_u20-pad2_ ] u20
+a72 [net-_u20-pad1_ ] [net-_u15-pad2_ ] u75
+a73 [net-_u20-pad1_ ] [net-_u25-pad2_ ] u76
+a74 [net-_u20-pad1_ ] [net-_u38-pad2_ ] u77
+a75 [net-_u20-pad1_ ] [net-_u50-pad2_ ] u79
+a76 [net-_u20-pad1_ ] [net-_u67-pad2_ ] u81
+a77 [? ] [net-_u62-pad2_ ] u80
+a78 [net-_sc13-pad2_ ] [net-_sc18-pad2_ ] u82
+a79 [net-_u42-pad3_ ] [net-_u43-pad2_ ] [net-_u42-pad2_ ] u43
+a80 [net-_sc48-pad1_ ] [net-_u20-pad1_ ] u83
+* Schematic Name:                             yogapriya, NgSpice Name: yogapriya
+.model u3 yogapriya(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u5 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u2 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u4 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u6 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u9 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u8 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u37 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u35 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u36 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u38 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u41 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u40 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u14 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u12 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u13 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u15 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u19 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u18 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u24 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u22 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u23 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u25 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u31 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u30 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u66 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u64 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u65 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u67 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u72 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u71 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u49 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u47 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u48 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u50 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u55 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u54 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u61 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u59 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u60 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u62 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u70 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u69 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             sam_nand, NgSpice Name: sam_nand
+.model u44 sam_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u42 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u45 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u53 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u52 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             yo_mux, NgSpice Name: yo_mux
+.model u1 yo_mux(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u11 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
+.model u7 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u10 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u16 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u17 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u28 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u39 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u63 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u51 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u73 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u57 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u26 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u34 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u21 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_3, NgSpice Name: dac_bridge
+.model u27 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u46 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u58 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u74 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u68 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u56 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u78 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u20 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u75 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u76 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u77 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u79 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u81 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u80 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u82 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             yo_nand, NgSpice Name: yo_nand
+.model u43 yo_nand(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u83 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+.tran 0.01e-09 200e-09 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(o1)
+plot v(o2)
+plot v(o3)
+.endc
+.end

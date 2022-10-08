@@ -1,0 +1,235 @@
+* C:\Users\Yogapriya\eSim-Workspace\yoga\yoga.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/08/22 19:53:43
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U3  Net-_U21-Pad9_ Net-_U21-Pad10_ Net-_U21-Pad11_ Net-_U21-Pad12_ Net-_U21-Pad13_ Net-_U21-Pad14_ Net-_U21-Pad15_ Net-_U21-Pad16_ Net-_U27-Pad1_ Net-_U27-Pad2_ Net-_U27-Pad3_ yogapriya		
+SC3  Net-_SC1-Pad3_ Net-_SC3-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC1  Net-_SC1-Pad1_ Net-_SC1-Pad2_ Net-_SC1-Pad3_ GND sky130_fd_pr__nfet_01v8		
+v2  Net-_SC2-Pad4_ GND DC		
+SC4  Net-_SC2-Pad3_ GND Net-_SC2-Pad4_ Net-_SC2-Pad4_ sky130_fd_pr__pfet_01v8		
+SC2  Net-_SC1-Pad1_ Net-_SC1-Pad2_ Net-_SC2-Pad3_ Net-_SC2-Pad4_ sky130_fd_pr__pfet_01v8		
+SC8  Net-_SC15-Pad3_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC15  Net-_SC10-Pad1_ Net-_SC10-Pad2_ Net-_SC15-Pad3_ Net-_SC15-Pad3_ sky130_fd_pr__nfet_01v8		
+SC10  Net-_SC10-Pad1_ Net-_SC10-Pad2_ Net-_SC10-Pad3_ Net-_SC10-Pad3_ sky130_fd_pr__pfet_01v8		
+SC12  Net-_SC10-Pad3_ Net-_SC11-Pad2_ Net-_SC11-Pad3_ Net-_SC11-Pad3_ sky130_fd_pr__pfet_01v8		
+SC11  Net-_SC11-Pad1_ Net-_SC11-Pad2_ Net-_SC11-Pad3_ Net-_SC11-Pad3_ sky130_fd_pr__pfet_01v8		
+SC13  Net-_SC10-Pad2_ Net-_SC13-Pad2_ Net-_SC11-Pad1_ Net-_SC11-Pad1_ sky130_fd_pr__pfet_01v8		
+v7  Net-_SC11-Pad3_ GND DC		
+U5  Net-_U2-Pad2_ Net-_U10-Pad2_ Net-_U2-Pad1_ Net-_U5-Pad4_ sam_nand		
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ yo_nand		
+U4  Net-_U2-Pad3_ Net-_U10-Pad2_ Net-_U2-Pad2_ yo_nand		
+U6  Net-_U5-Pad4_ Net-_U20-Pad2_ Net-_U2-Pad1_ yo_nand		
+U9  Net-_U16-Pad1_ Net-_U5-Pad4_ Net-_U8-Pad2_ yo_nand		
+SC35  Net-_SC11-Pad3_ Net-_SC11-Pad2_ Net-_SC11-Pad2_ Net-_SC11-Pad3_ sky130_fd_pr__pfet_01v8		
+U8  Net-_U2-Pad2_ Net-_U8-Pad2_ Net-_U16-Pad1_ yo_nand		
+SC50  Net-_SC50-Pad1_ Net-_SC50-Pad2_ Net-_SC50-Pad3_ Net-_SC50-Pad3_ sky130_fd_pr__nfet_01v8		
+SC58  Net-_SC56-Pad1_ Net-_SC50-Pad1_ Net-_SC58-Pad3_ Net-_SC58-Pad3_ sky130_fd_pr__nfet_01v8		
+SC52  Net-_SC52-Pad1_ Net-_SC46-Pad1_ Net-_SC47-Pad1_ Net-_SC47-Pad1_ sky130_fd_pr__pfet_01v8		
+SC55  Net-_SC55-Pad1_ Net-_SC46-Pad1_ Net-_SC47-Pad1_ Net-_SC47-Pad1_ sky130_fd_pr__pfet_01v8		
+SC53  Net-_SC50-Pad1_ Net-_SC50-Pad2_ Net-_SC52-Pad1_ Net-_SC52-Pad1_ sky130_fd_pr__pfet_01v8		
+SC56  Net-_SC56-Pad1_ Net-_SC50-Pad1_ Net-_SC55-Pad1_ Net-_SC55-Pad1_ sky130_fd_pr__pfet_01v8		
+v9  Net-_SC47-Pad1_ GND DC		
+SC47  Net-_SC47-Pad1_ Net-_SC46-Pad1_ Net-_SC46-Pad1_ Net-_SC47-Pad1_ sky130_fd_pr__pfet_01v8		
+SC71  Net-_SC50-Pad3_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC70  Net-_SC48-Pad2_ Net-_SC56-Pad1_ Net-_SC70-Pad3_ Net-_SC70-Pad3_ sky130_fd_pr__nfet_01v8		
+SC80  Net-_SC58-Pad3_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC81  Net-_SC48-Pad1_ Net-_SC48-Pad2_ Net-_SC81-Pad3_ Net-_SC81-Pad3_ sky130_fd_pr__nfet_01v8		
+SC72  Net-_SC72-Pad1_ Net-_SC66-Pad1_ Net-_SC67-Pad1_ Net-_SC67-Pad1_ sky130_fd_pr__pfet_01v8		
+SC73  Net-_SC48-Pad2_ Net-_SC56-Pad1_ Net-_SC72-Pad1_ Net-_SC72-Pad1_ sky130_fd_pr__pfet_01v8		
+v11  Net-_SC67-Pad1_ GND DC		
+SC67  Net-_SC67-Pad1_ Net-_SC66-Pad1_ Net-_SC66-Pad1_ Net-_SC67-Pad1_ sky130_fd_pr__pfet_01v8		
+SC18  Net-_SC18-Pad1_ Net-_SC18-Pad2_ Net-_SC17-Pad1_ Net-_SC17-Pad1_ sky130_fd_pr__nfet_01v8		
+SC17  Net-_SC17-Pad1_ Net-_SC17-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC23  Net-_SC22-Pad1_ Net-_SC18-Pad1_ Net-_SC23-Pad3_ Net-_SC23-Pad3_ sky130_fd_pr__nfet_01v8		
+SC24  Net-_SC23-Pad3_ Net-_SC17-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC19  Net-_SC19-Pad1_ Net-_SC16-Pad2_ Net-_SC16-Pad1_ Net-_SC16-Pad1_ sky130_fd_pr__pfet_01v8		
+SC21  Net-_SC21-Pad1_ Net-_SC16-Pad2_ Net-_SC16-Pad1_ Net-_SC16-Pad1_ sky130_fd_pr__pfet_01v8		
+SC20  Net-_SC18-Pad1_ Net-_SC18-Pad2_ Net-_SC19-Pad1_ Net-_SC19-Pad1_ sky130_fd_pr__pfet_01v8		
+SC22  Net-_SC22-Pad1_ Net-_SC18-Pad1_ Net-_SC21-Pad1_ Net-_SC21-Pad1_ sky130_fd_pr__pfet_01v8		
+v4  Net-_SC16-Pad1_ GND DC		
+SC16  Net-_SC16-Pad1_ Net-_SC16-Pad2_ Net-_SC16-Pad2_ Net-_SC16-Pad1_ sky130_fd_pr__pfet_01v8		
+SC28  Net-_SC28-Pad1_ Net-_SC22-Pad1_ Net-_SC27-Pad1_ Net-_SC27-Pad1_ sky130_fd_pr__nfet_01v8		
+SC27  Net-_SC27-Pad1_ Net-_SC27-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC33  Net-_SC32-Pad1_ Net-_SC28-Pad1_ Net-_SC33-Pad3_ Net-_SC33-Pad3_ sky130_fd_pr__nfet_01v8		
+SC34  Net-_SC33-Pad3_ Net-_SC27-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC29  Net-_SC29-Pad1_ Net-_SC26-Pad2_ Net-_SC26-Pad1_ Net-_SC26-Pad1_ sky130_fd_pr__pfet_01v8		
+SC31  Net-_SC31-Pad1_ Net-_SC26-Pad2_ Net-_SC26-Pad1_ Net-_SC26-Pad1_ sky130_fd_pr__pfet_01v8		
+SC30  Net-_SC28-Pad1_ Net-_SC22-Pad1_ Net-_SC29-Pad1_ Net-_SC29-Pad1_ sky130_fd_pr__pfet_01v8		
+SC32  Net-_SC32-Pad1_ Net-_SC28-Pad1_ Net-_SC31-Pad1_ Net-_SC31-Pad1_ sky130_fd_pr__pfet_01v8		
+v6  Net-_SC26-Pad1_ GND DC		
+SC26  Net-_SC26-Pad1_ Net-_SC26-Pad2_ Net-_SC26-Pad2_ Net-_SC26-Pad1_ sky130_fd_pr__pfet_01v8		
+SC39  Net-_SC39-Pad1_ Net-_SC39-Pad2_ Net-_SC39-Pad3_ Net-_SC39-Pad3_ sky130_fd_pr__nfet_01v8		
+SC38  Net-_SC38-Pad1_ Net-_SC36-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC44  Net-_SC39-Pad3_ Net-_SC36-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC45  Net-_SC39-Pad2_ Net-_SC32-Pad1_ Net-_SC38-Pad1_ Net-_SC38-Pad1_ sky130_fd_pr__nfet_01v8		
+SC40  Net-_SC40-Pad1_ Net-_SC36-Pad1_ Net-_SC37-Pad1_ Net-_SC37-Pad1_ sky130_fd_pr__pfet_01v8		
+SC42  Net-_SC42-Pad1_ Net-_SC36-Pad1_ Net-_SC37-Pad1_ Net-_SC37-Pad1_ sky130_fd_pr__pfet_01v8		
+SC41  Net-_SC39-Pad2_ Net-_SC32-Pad1_ Net-_SC40-Pad1_ Net-_SC40-Pad1_ sky130_fd_pr__pfet_01v8		
+SC43  Net-_SC39-Pad1_ Net-_SC39-Pad2_ Net-_SC42-Pad1_ Net-_SC42-Pad1_ sky130_fd_pr__pfet_01v8		
+v8  Net-_SC37-Pad1_ GND DC		
+SC37  Net-_SC37-Pad1_ Net-_SC36-Pad1_ Net-_SC36-Pad1_ Net-_SC37-Pad1_ sky130_fd_pr__pfet_01v8		
+SC57  Net-_SC54-Pad2_ Net-_SC39-Pad1_ Net-_SC57-Pad3_ Net-_SC57-Pad3_ sky130_fd_pr__nfet_01v8		
+SC54  Net-_SC54-Pad1_ Net-_SC54-Pad2_ Net-_SC54-Pad3_ Net-_SC54-Pad3_ sky130_fd_pr__nfet_01v8		
+SC64  Net-_SC54-Pad3_ Net-_SC49-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC65  Net-_SC57-Pad3_ Net-_SC49-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC60  Net-_SC60-Pad1_ Net-_SC49-Pad1_ Net-_SC51-Pad1_ Net-_SC51-Pad1_ sky130_fd_pr__pfet_01v8		
+SC62  Net-_SC62-Pad1_ Net-_SC49-Pad1_ Net-_SC51-Pad1_ Net-_SC51-Pad1_ sky130_fd_pr__pfet_01v8		
+SC61  Net-_SC54-Pad2_ Net-_SC39-Pad1_ Net-_SC60-Pad1_ Net-_SC60-Pad1_ sky130_fd_pr__pfet_01v8		
+SC63  Net-_SC54-Pad1_ Net-_SC54-Pad2_ Net-_SC62-Pad1_ Net-_SC62-Pad1_ sky130_fd_pr__pfet_01v8		
+v10  Net-_SC51-Pad1_ GND DC		
+SC51  Net-_SC51-Pad1_ Net-_SC49-Pad1_ Net-_SC49-Pad1_ Net-_SC51-Pad1_ sky130_fd_pr__pfet_01v8		
+SC68  Net-_SC68-Pad1_ Net-_SC54-Pad1_ Net-_SC68-Pad3_ Net-_SC68-Pad3_ sky130_fd_pr__pfet_01v8		
+SC75  Net-_SC69-Pad2_ Net-_SC75-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC74  Net-_SC68-Pad1_ Net-_SC54-Pad1_ Net-_SC74-Pad3_ Net-_SC74-Pad3_ sky130_fd_pr__nfet_01v8		
+SC84  Net-_SC74-Pad3_ Net-_SC75-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC85  Net-_SC83-Pad1_ Net-_SC68-Pad1_ Net-_SC85-Pad3_ Net-_SC85-Pad3_ sky130_fd_pr__nfet_01v8		
+SC76  Net-_SC68-Pad3_ Net-_SC69-Pad2_ Net-_SC69-Pad1_ Net-_SC69-Pad1_ sky130_fd_pr__pfet_01v8		
+SC82  Net-_SC82-Pad1_ Net-_SC69-Pad2_ Net-_SC69-Pad1_ Net-_SC69-Pad1_ sky130_fd_pr__pfet_01v8		
+SC83  Net-_SC83-Pad1_ Net-_SC68-Pad1_ Net-_SC82-Pad1_ Net-_SC82-Pad1_ sky130_fd_pr__pfet_01v8		
+v12  Net-_SC69-Pad1_ GND DC		
+SC69  Net-_SC69-Pad1_ Net-_SC69-Pad2_ Net-_SC69-Pad2_ Net-_SC69-Pad1_ sky130_fd_pr__pfet_01v8		
+SC89  Net-_SC87-Pad2_ Net-_SC106-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC88  Net-_SC88-Pad1_ Net-_SC83-Pad1_ Net-_SC88-Pad3_ Net-_SC88-Pad3_ sky130_fd_pr__nfet_01v8		
+SC94  Net-_SC101-Pad2_ Net-_SC88-Pad1_ Net-_SC106-Pad1_ Net-_SC106-Pad1_ sky130_fd_pr__nfet_01v8		
+SC95  Net-_SC88-Pad3_ Net-_SC106-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC90  Net-_SC90-Pad1_ Net-_SC87-Pad2_ Net-_SC87-Pad1_ Net-_SC87-Pad1_ sky130_fd_pr__pfet_01v8		
+SC92  Net-_SC92-Pad1_ Net-_SC87-Pad2_ Net-_SC87-Pad1_ Net-_SC87-Pad1_ sky130_fd_pr__pfet_01v8		
+SC91  Net-_SC88-Pad1_ Net-_SC83-Pad1_ Net-_SC90-Pad1_ Net-_SC90-Pad1_ sky130_fd_pr__pfet_01v8		
+SC93  Net-_SC101-Pad2_ Net-_SC88-Pad1_ Net-_SC92-Pad1_ Net-_SC92-Pad1_ sky130_fd_pr__pfet_01v8		
+v13  Net-_SC87-Pad1_ GND DC		
+SC87  Net-_SC87-Pad1_ Net-_SC87-Pad2_ Net-_SC87-Pad2_ Net-_SC87-Pad1_ sky130_fd_pr__pfet_01v8		
+SC99  Net-_SC100-Pad2_ Net-_SC104-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC98  Net-_SC101-Pad1_ Net-_SC101-Pad2_ Net-_SC104-Pad1_ Net-_SC104-Pad1_ sky130_fd_pr__nfet_01v8		
+SC104  Net-_SC104-Pad1_ Net-_SC104-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC105  Net-_SC103-Pad1_ Net-_SC101-Pad1_ Net-_SC105-Pad3_ Net-_SC105-Pad3_ sky130_fd_pr__nfet_01v8		
+SC100  Net-_SC100-Pad1_ Net-_SC100-Pad2_ Net-_SC100-Pad3_ Net-_SC100-Pad3_ sky130_fd_pr__pfet_01v8		
+SC102  Net-_SC102-Pad1_ Net-_SC100-Pad2_ Net-_SC100-Pad3_ Net-_SC100-Pad3_ sky130_fd_pr__pfet_01v8		
+SC101  Net-_SC101-Pad1_ Net-_SC101-Pad2_ Net-_SC100-Pad1_ Net-_SC100-Pad1_ sky130_fd_pr__pfet_01v8		
+SC103  Net-_SC103-Pad1_ Net-_SC101-Pad1_ Net-_SC102-Pad1_ Net-_SC102-Pad1_ sky130_fd_pr__pfet_01v8		
+v14  Net-_SC100-Pad3_ GND DC		
+SC97  Net-_SC100-Pad3_ Net-_SC100-Pad2_ Net-_SC100-Pad2_ Net-_SC100-Pad3_ sky130_fd_pr__pfet_01v8		
+SC115  Net-_SC109-Pad2_ Net-_SC114-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC114  Net-_SC114-Pad1_ Net-_SC114-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC124  Net-_SC117-Pad1_ Net-_SC103-Pad1_ Net-_SC114-Pad1_ Net-_SC114-Pad1_ sky130_fd_pr__nfet_01v8		
+SC125  Net-_SC113-Pad2_ Net-_SC117-Pad1_ Net-_SC125-Pad3_ Net-_SC125-Pad3_ sky130_fd_pr__nfet_01v8		
+SC116  Net-_SC116-Pad1_ Net-_SC109-Pad2_ Net-_SC109-Pad1_ Net-_SC109-Pad1_ sky130_fd_pr__pfet_01v8		
+SC122  Net-_SC122-Pad1_ Net-_SC109-Pad2_ Net-_SC109-Pad1_ Net-_SC109-Pad1_ sky130_fd_pr__pfet_01v8		
+SC117  Net-_SC117-Pad1_ Net-_SC103-Pad1_ Net-_SC116-Pad1_ Net-_SC116-Pad1_ sky130_fd_pr__pfet_01v8		
+SC123  Net-_SC113-Pad2_ Net-_SC117-Pad1_ Net-_SC122-Pad1_ Net-_SC122-Pad1_ sky130_fd_pr__pfet_01v8		
+v16  Net-_SC109-Pad1_ GND DC		
+SC109  Net-_SC109-Pad1_ Net-_SC109-Pad2_ Net-_SC109-Pad2_ Net-_SC109-Pad1_ sky130_fd_pr__pfet_01v8		
+U37  Net-_U35-Pad2_ Net-_U36-Pad2_ Net-_U35-Pad1_ Net-_U37-Pad4_ sam_nand		
+U35  Net-_U35-Pad1_ Net-_U35-Pad2_ Net-_U35-Pad3_ yo_nand		
+U36  Net-_U35-Pad3_ Net-_U36-Pad2_ Net-_U35-Pad2_ yo_nand		
+U38  Net-_U37-Pad4_ Net-_U38-Pad2_ Net-_U35-Pad1_ yo_nand		
+U41  Net-_U40-Pad3_ Net-_U37-Pad4_ Net-_U40-Pad2_ yo_nand		
+U40  Net-_U35-Pad2_ Net-_U40-Pad2_ Net-_U40-Pad3_ yo_nand		
+U14  Net-_U12-Pad2_ Net-_U13-Pad2_ Net-_U12-Pad1_ Net-_U14-Pad4_ sam_nand		
+U12  Net-_U12-Pad1_ Net-_U12-Pad2_ Net-_U12-Pad3_ yo_nand		
+U13  Net-_U12-Pad3_ Net-_U13-Pad2_ Net-_U12-Pad2_ yo_nand		
+U15  Net-_U14-Pad4_ Net-_U15-Pad2_ Net-_U12-Pad1_ yo_nand		
+U19  Net-_U18-Pad3_ Net-_U14-Pad4_ Net-_U18-Pad2_ yo_nand		
+U18  Net-_U12-Pad2_ Net-_U18-Pad2_ Net-_U18-Pad3_ yo_nand		
+U24  Net-_U22-Pad2_ Net-_U23-Pad2_ Net-_U22-Pad1_ Net-_U24-Pad4_ sam_nand		
+U22  Net-_U22-Pad1_ Net-_U22-Pad2_ Net-_U22-Pad3_ yo_nand		
+U23  Net-_U22-Pad3_ Net-_U23-Pad2_ Net-_U22-Pad2_ yo_nand		
+U25  Net-_U24-Pad4_ Net-_U25-Pad2_ Net-_U22-Pad1_ yo_nand		
+U31  Net-_U30-Pad3_ Net-_U24-Pad4_ Net-_U30-Pad2_ yo_nand		
+U30  Net-_U22-Pad2_ Net-_U30-Pad2_ Net-_U30-Pad3_ yo_nand		
+U66  Net-_U64-Pad2_ Net-_U65-Pad2_ Net-_U64-Pad1_ Net-_U66-Pad4_ sam_nand		
+U64  Net-_U64-Pad1_ Net-_U64-Pad2_ Net-_U64-Pad3_ yo_nand		
+U65  Net-_U64-Pad3_ Net-_U65-Pad2_ Net-_U64-Pad2_ yo_nand		
+U67  Net-_U66-Pad4_ Net-_U67-Pad2_ Net-_U64-Pad1_ yo_nand		
+U72  Net-_U71-Pad3_ Net-_U66-Pad4_ Net-_U71-Pad2_ yo_nand		
+U71  Net-_U64-Pad2_ Net-_U71-Pad2_ Net-_U71-Pad3_ yo_nand		
+U49  Net-_U47-Pad2_ Net-_U48-Pad2_ Net-_U47-Pad1_ Net-_U49-Pad4_ sam_nand		
+U47  Net-_U47-Pad1_ Net-_U47-Pad2_ Net-_U47-Pad3_ yo_nand		
+U48  Net-_U47-Pad3_ Net-_U48-Pad2_ Net-_U47-Pad2_ yo_nand		
+U50  Net-_U49-Pad4_ Net-_U50-Pad2_ Net-_U47-Pad1_ yo_nand		
+U55  Net-_U54-Pad3_ Net-_U49-Pad4_ Net-_U54-Pad2_ yo_nand		
+U54  Net-_U47-Pad2_ Net-_U54-Pad2_ Net-_U54-Pad3_ yo_nand		
+U61  Net-_U59-Pad2_ Net-_U60-Pad2_ Net-_U59-Pad1_ Net-_U61-Pad4_ sam_nand		
+U59  Net-_U59-Pad1_ Net-_U59-Pad2_ Net-_U59-Pad3_ yo_nand		
+U60  Net-_U59-Pad3_ Net-_U60-Pad2_ Net-_U59-Pad2_ yo_nand		
+U62  Net-_U61-Pad4_ Net-_U62-Pad2_ Net-_U59-Pad1_ yo_nand		
+U70  Net-_U58-Pad1_ Net-_U61-Pad4_ Net-_U69-Pad2_ yo_nand		
+U69  Net-_U59-Pad2_ Net-_U69-Pad2_ Net-_U58-Pad1_ yo_nand		
+U44  Net-_U42-Pad2_ Net-_U43-Pad2_ Net-_U42-Pad1_ Net-_U44-Pad4_ sam_nand		
+U42  Net-_U42-Pad1_ Net-_U42-Pad2_ Net-_U42-Pad3_ yo_nand		
+U45  Net-_U44-Pad4_ Net-_U45-Pad2_ Net-_U42-Pad1_ yo_nand		
+U53  Net-_U52-Pad3_ Net-_U44-Pad4_ Net-_U52-Pad2_ yo_nand		
+U52  Net-_U42-Pad2_ Net-_U52-Pad2_ Net-_U52-Pad3_ yo_nand		
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ yo_mux		
+U11  Net-_U1-Pad4_ Net-_SC1-Pad2_ dac_bridge_1		
+U7  Net-_U7-Pad1_ Net-_SC2-Pad4_ Net-_SC48-Pad1_ Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ adc_bridge_3		
+v3  Net-_SC3-Pad2_ GND DC		
+v1  Net-_U7-Pad1_ GND DC		
+U10  Net-_SC22-Pad1_ Net-_U10-Pad2_ adc_bridge_1		
+U16  Net-_U16-Pad1_ Net-_U16-Pad2_ dac_bridge_1		
+U17  Net-_SC32-Pad1_ Net-_U13-Pad2_ adc_bridge_1		
+U28  Net-_SC39-Pad1_ Net-_U23-Pad2_ adc_bridge_1		
+U39  Net-_SC54-Pad1_ Net-_U36-Pad2_ adc_bridge_1		
+U63  Net-_SC101-Pad2_ Net-_U60-Pad2_ adc_bridge_1		
+U51  Net-_SC83-Pad1_ Net-_U48-Pad2_ adc_bridge_1		
+SC111  Net-_SC107-Pad2_ Net-_SC111-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC110  Net-_SC110-Pad1_ Net-_SC110-Pad2_ Net-_SC110-Pad3_ Net-_SC110-Pad3_ sky130_fd_pr__nfet_01v8		
+SC120  Net-_SC110-Pad2_ Net-_SC113-Pad2_ Net-_SC120-Pad3_ Net-_SC120-Pad3_ sky130_fd_pr__nfet_01v8		
+SC121  Net-_SC110-Pad3_ Net-_SC111-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC112  Net-_SC112-Pad1_ Net-_SC107-Pad2_ Net-_SC107-Pad1_ Net-_SC107-Pad1_ sky130_fd_pr__pfet_01v8		
+SC118  Net-_SC118-Pad1_ Net-_SC107-Pad2_ Net-_SC107-Pad1_ Net-_SC107-Pad1_ sky130_fd_pr__pfet_01v8		
+SC113  Net-_SC110-Pad2_ Net-_SC113-Pad2_ Net-_SC112-Pad1_ Net-_SC112-Pad1_ sky130_fd_pr__pfet_01v8		
+SC119  Net-_SC110-Pad1_ Net-_SC110-Pad2_ Net-_SC118-Pad1_ Net-_SC118-Pad1_ sky130_fd_pr__pfet_01v8		
+v15  Net-_SC107-Pad1_ GND DC		
+SC107  Net-_SC107-Pad1_ Net-_SC107-Pad2_ Net-_SC107-Pad2_ Net-_SC107-Pad1_ sky130_fd_pr__pfet_01v8		
+U73  Net-_SC103-Pad1_ Net-_U65-Pad2_ adc_bridge_1		
+U57  Net-_U43-Pad2_ Net-_SC113-Pad2_ adc_bridge_1		
+U26  Net-_U18-Pad3_ Net-_U21-Pad2_ dac_bridge_1		
+U34  Net-_U30-Pad3_ Net-_U21-Pad3_ dac_bridge_1		
+U21  Net-_U16-Pad2_ Net-_U21-Pad2_ Net-_U21-Pad3_ Net-_U21-Pad4_ Net-_U21-Pad5_ Net-_U21-Pad6_ Net-_U21-Pad7_ Net-_U21-Pad8_ Net-_U21-Pad9_ Net-_U21-Pad10_ Net-_U21-Pad11_ Net-_U21-Pad12_ Net-_U21-Pad13_ Net-_U21-Pad14_ Net-_U21-Pad15_ Net-_U21-Pad16_ adc_bridge_8		
+U27  Net-_U27-Pad1_ Net-_U27-Pad2_ Net-_U27-Pad3_ O1 O2 O3 dac_bridge_3		
+U46  Net-_U40-Pad3_ Net-_U21-Pad4_ dac_bridge_1		
+U58  Net-_U58-Pad1_ Net-_U21-Pad6_ dac_bridge_1		
+U74  Net-_U71-Pad3_ Net-_U21-Pad7_ dac_bridge_1		
+U68  Net-_U52-Pad3_ Net-_U21-Pad8_ dac_bridge_1		
+U56  Net-_U54-Pad3_ Net-_U21-Pad5_ dac_bridge_1		
+U29  O1 plot_v1		
+U32  O2 plot_v1		
+U33  O3 plot_v1		
+scmode1  SKY130mode		
+v5  Net-_SC13-Pad2_ GND pulse		
+SC5  GND Net-_SC1-Pad1_ GND sky130_fd_pr__res_generic_pd		
+SC78  Net-_SC48-Pad3_ Net-_SC66-Pad1_ Net-_SC67-Pad1_ Net-_SC67-Pad1_ sky130_fd_pr__pfet_01v8		
+SC14  Net-_SC14-Pad1_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC9  Net-_SC10-Pad2_ Net-_SC13-Pad2_ Net-_SC14-Pad1_ Net-_SC14-Pad1_ sky130_fd_pr__nfet_01v8		
+SC46  Net-_SC46-Pad1_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC25  Net-_SC11-Pad2_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC66  Net-_SC66-Pad1_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC77  Net-_SC70-Pad3_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC86  Net-_SC81-Pad3_ Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+SC6  Net-_SC16-Pad2_ Net-_SC17-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC7  Net-_SC26-Pad2_ Net-_SC27-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC36  Net-_SC36-Pad1_ Net-_SC36-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC49  Net-_SC49-Pad1_ Net-_SC49-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC96  Net-_SC85-Pad3_ Net-_SC75-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC106  Net-_SC106-Pad1_ Net-_SC106-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC108  Net-_SC105-Pad3_ Net-_SC104-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC127  Net-_SC125-Pad3_ Net-_SC114-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC126  Net-_SC120-Pad3_ Net-_SC111-Pad2_ GND GND sky130_fd_pr__nfet_01v8		
+SC48  Net-_SC48-Pad1_ Net-_SC48-Pad2_ Net-_SC48-Pad3_ Net-_SC48-Pad3_ sky130_fd_pr__pfet_01v8		
+U78  Net-_SC48-Pad1_ Net-_U45-Pad2_ adc_bridge_1		
+U20  Net-_U20-Pad1_ Net-_U20-Pad2_ adc_bridge_1		
+U75  Net-_U20-Pad1_ Net-_U15-Pad2_ adc_bridge_1		
+U76  Net-_U20-Pad1_ Net-_U25-Pad2_ adc_bridge_1		
+U77  Net-_U20-Pad1_ Net-_U38-Pad2_ adc_bridge_1		
+U79  Net-_U20-Pad1_ Net-_U50-Pad2_ adc_bridge_1		
+U81  Net-_U20-Pad1_ Net-_U67-Pad2_ adc_bridge_1		
+U80  ? Net-_U62-Pad2_ adc_bridge_1		
+U82  Net-_SC13-Pad2_ Net-_SC18-Pad2_ adc_bridge_1		
+U43  Net-_U42-Pad3_ Net-_U43-Pad2_ Net-_U42-Pad2_ yo_nand		
+U83  Net-_SC48-Pad1_ Net-_U20-Pad1_ adc_bridge_1		
+
+.end
