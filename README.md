@@ -113,24 +113,15 @@ endmodule
    
  # MAKERCHIP WAVEFORM
  
+ ![image](https://user-images.githubusercontent.com/101329190/194714513-f513497a-b785-4b19-bcfc-47e884fb509f.png)
+ 
+ # CREATING MODELS OF NGVERI FOR MULTIPLEXER 
  
  
- ![image](https://user-images.githubusercontent.com/101329190/158007378-16fd4dda-62e1-4f61-93fa-7ef8b7f1f6bd.png)
 
-
- ![image](https://user-images.githubusercontent.com/101329190/158007391-e7c5c384-ed61-44c0-ba0c-76d600979693.png)
-
-  
- # NETLIST
+# NETLIST
  
  https://github.com/YogapriyaB/rvmyth/blob/main/esim_project_files/mixed.cir.out
-
-  
- # CREATING MODELS OF NGVERI
- 
- <img width="960" alt="Ngveri" src="https://user-images.githubusercontent.com/101329190/157720443-e1d8b271-34d7-4865-8709-d44935108f3b.png">
-
-
  # SCHEMATICS
  
  <img width="960" alt="schematic diagram" src="https://user-images.githubusercontent.com/101329190/157716665-9ffba1a5-446f-43f7-88fa-c3f9fc007325.png">
