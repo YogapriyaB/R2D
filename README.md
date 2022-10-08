@@ -258,7 +258,7 @@ https://github.com/YogapriyaB/R2D/blob/d4aa10dc4023b0310272deb854ac5ab442dfac89/
  ![image](https://user-images.githubusercontent.com/101329190/194715454-778aac3e-8af6-44b5-8cfc-8d3b7c34ad2d.png)
 
 
- # OUTPUT WAVEFORMS
+ # EXPECTED OUTPUT WAVEFORMS
  
  ![1](https://user-images.githubusercontent.com/101329190/194715520-4fcd8cf7-6aad-4e38-aa0a-f5512cd8d583.PNG)
 
