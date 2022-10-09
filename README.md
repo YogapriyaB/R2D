@@ -40,7 +40,7 @@ The purpose of this project is to determine the value of resistors using end-to-
 
 # PROPOSED METHODOLOGY
 
-• Step 1 : Writing Verilog code for RVMYTH MIXED SIGNAL(RISC-V) & simulating on Makerchip
+• Step 1 : Writing Verilog code for MUX, NAND with two and three input and for Priority Encoder & simulating on Makerchip
 
 • Step 2 : Model creation on NgVeri
 
