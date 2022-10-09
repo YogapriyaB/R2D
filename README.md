@@ -75,6 +75,54 @@ Verilator:
 It is a tool which converts Verilog code to C++ objects. 
 Refer: https://www.veripool.org/verilator/
 
+# VERILOG
+
+# Verilog code for MUX
+
+module yo_mux(Y, D0, D1, S);
+output Y;
+input D0, D1, S;
+wire T1, T2, Sbar;
+and (T1, D1, S), (T2, D0, Sbar);
+not (Sbar, S);
+or (Y, T1, T2);
+endmodule
+
+# VERILOG CODE FOR NAND WITH TWO INPUT
+
+module yo_nand(a,b,c);
+input a,b;
+output c;
+nand n1(c,a,b);
+endmodule
+
+# VERILOG CODE FOR NAND WITH THREE INPUT
+
+module sam_nand(a,b,c,d);
+input a,b,c;
+output d;
+nand n1(d,a,b,c);
+endmodule
+
+# VERILOG CODE FOR PRIORITY ENCODER
+
+`timescale 1ns / 1ps
+
+module yogapriya(d_out, d_in);
+   output [2:0] d_out;
+   input [7:0] d_in ;
+
+assign d_out = (d_in[7] ==1'b1 ) ? 3'b111:
+               (d_in[6] ==1'b1 ) ? 3'b110:
+               (d_in[5] ==1'b1 ) ? 3'b101:
+               (d_in[4] ==1'b1) ? 3'b100:
+               (d_in[3] ==1'b1) ? 3'b011:
+               (d_in[2] ==1'b1) ? 3'b010:
+               (d_in[1] ==1'b1) ? 3'b001:
+               (d_in[0] ==1'b1) ? 3'b000: 3'bxxx;
+
+endmodule
+
 
 # MAKERCHIP
 
